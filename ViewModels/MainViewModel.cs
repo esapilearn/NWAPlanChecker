@@ -46,7 +46,7 @@ namespace NWA.PlanChecker.ViewModels
                 new PlanConstraint(ConstraintBuilder.Build("Rectum", "V75Gy[%] <= 15")),
                 new PlanConstraint(ConstraintBuilder.Build("Rectum", "V65Gy[%] <= 35")),
                 new PlanConstraint(ConstraintBuilder.Build("Bladder", "V80Gy[%] <= 15")),
-                //new PlanConstraint(new CTDateConstraint())
+                new PlanConstraint(new CTDateConstraint())
                 });
             }
 
